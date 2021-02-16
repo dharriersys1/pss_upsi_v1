@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="pss_upsi_v1" duration-ms="98070" started-at="2020-01-24T14:06:24Z" finished-at="2020-01-24T14:08:03Z">
+    <groups>
+    </groups>
+    <test name="UPSIModule Test" duration-ms="98070" started-at="2020-01-24T14:06:24Z" finished-at="2020-01-24T14:08:03Z">
+      <class name="com.qa.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.TC_LoginTest_001@79698539]" name="setup" is-config="true" duration-ms="22526" started-at="2020-01-24T14:06:25Z" finished-at="2020-01-24T14:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.qa.testcases.TC_LoginTest_001@79698539]" name="loginTest" duration-ms="39626" started-at="2020-01-24T14:06:48Z" finished-at="2020-01-24T14:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:2, instance:com.qa.testcases.TC_LoginTest_001@79698539]" name="logoutTest" duration-ms="35380" started-at="2020-01-24T14:07:27Z" finished-at="2020-01-24T14:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.TC_LoginTest_001@79698539]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-01-24T14:08:03Z" finished-at="2020-01-24T14:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testcases.TC_LoginTest_001 -->
+    </test> <!-- UPSIModule Test -->
+  </suite> <!-- pss_upsi_v1 -->
+</testng-results>

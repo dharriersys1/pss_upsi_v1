@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="pss_upsi_v1">
+
+	<listeners>
+		<listener class-name="com.qa.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="UPSIModule Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+	<!--       <class name="com.qa.testcases.TC_LoginTest_001" /> --> 
+	<!--      <class name="com.qa.testcases.TC_AddRoleTest_003" /> --> 
+	<!--     <class name="com.qa.testcases.TC_UserTest_004" />  --> 
+	<!--   	    <class name="com.qa.testcases.TC_SharerTest_005" /> --> 
+	<!--	  <class name="com.qa.testcases.TC_RecipientTest_006" /> --> 
+	 <!--  	<class name="com.qa.testcases.TC_UpsiDetailsTest_007" /> --> 
+	 
+	 
+	   <!--      <class name="com.qa.testcases.TC_RecipientTestDDT_009" /> --> 
+	   
+	          <class name="com.qa.testcases.TC_CompanySetup_011" />
+			
+		</classes>
+
+	</test> 
+
+</suite>
